@@ -1,0 +1,78 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.modal {
+  width: 100%;
+  max-width: 420px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 25px;
+  animation: fadeIn 0.2s ease-in-out;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background-color: #a62626;
+  border-radius: 4px;
+}
+
+.modal::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #a62626;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+
+.detail p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.closeBtn {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid #999;
+  color: #555;
+  padding: 7px 18px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

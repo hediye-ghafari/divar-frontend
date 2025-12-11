@@ -1,0 +1,39 @@
+.list {
+  margin: 50px 0 70px;
+}
+
+.list div {
+  display: flex;
+  margin: 20px 0;
+  padding: 15px;
+  border: 2px solid #eaeaea;
+  border-radius: 5px;
+}
+
+.list h5 {
+  margin-right: 10px;
+  font-size: 0.9rem;
+  width: 120px;
+}
+.list p {
+  width: 100%;
+  text-align: left;
+  color: #a62626;
+}
+
+.deleteBtn {
+  background-color: #ffeded;
+  color: #c62828;
+  border: 1px solid #ffcdd2;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+  margin-right: 20px;
+}
+
+.deleteBtn:hover {
+  background-color: #ffcccc;
+  border-color: #ef9a9a;
+}

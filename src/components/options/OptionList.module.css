@@ -1,0 +1,86 @@
+.listBox {
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+.optionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  background-color: #fff;
+}
+
+.optionInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.optionTitle {
+  font-weight: bold;
+}
+
+.optionMeta {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.editBtn {
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #555;
+  padding: 5px 9px;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.editBtn:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.deleteBtn {
+  background-color: transparent;
+  border: 1px solid #a62626;
+  color: #a62626;
+  padding: 5px 12px;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: #a62626;
+  color: #fff;
+}
+
+.detailBtn {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.detailBtn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.empty {
+  font-size: 0.9rem;
+  color: gray;
+  margin-top: 20px;
+}
