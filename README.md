@@ -4,7 +4,8 @@ This project is a simplified implementation of Divar-style mobile authentication
 Users can submit their phone number, receive a one-time password (OTP), and log in after verification.
 The goal of this project is to demonstrate a clean authentication flow, structured frontend development, and real API integration suitable for production-level applications.
 
-🚀 Features
+## 🚀 Features
+
 Frontend (React)
 React + Vite
 Two-step authentication (Send OTP → Verify OTP)
@@ -26,12 +27,12 @@ Centralized error handling
 Authorization middleware
 Fully prepared for SMS provider integration
 
-🛠️ Admin Panel – Role Access & Option Management
+## 🛠️ Admin Panel – Role Access & Option Management
 
 The project includes a minimal admin panel designed for demonstration purposes.
 Admin permissions are handled through a simple role-checking mechanism:
 
-🔑 Admin Login Logic (Demo Mode)
+## 🔑 Admin Login Logic (Demo Mode)
 
 A predefined phone number is treated as an admin account.
 When logged in using that number, the user gains access to the admin section.
@@ -42,7 +43,7 @@ Protected admin components
 are fully implemented on the frontend and ready for expansion.
 You can replace this placeholder with a real RBAC (Role-Based Access Control) system at any time.
 
-⚙️ Admin Option Management API
+## ⚙️ Admin Option Management API
 
 Inside the admin panel, there is a full CRUD interface for managing Options, which are used inside categories.
 The UI communicates with the backend through the following endpoints:
@@ -64,7 +65,8 @@ Removes an option from the system.
 
 Even though the backend was pre-built, the admin UI and all integrations, API calls, and state management were fully implemented by me.
 
-🧰 Technologies Used
+## 🧰 Technologies Used
+
 Frontend
 React
 Vite
@@ -80,7 +82,7 @@ JWT
 dotenv
 Crypto
 
-🔐 Security Notes
+## 🔐 Security Notes
 
 OTP codes expire in 2 minutes
 Access & refresh tokens are generated after successful OTP verification
@@ -88,7 +90,7 @@ Refresh token supports long-term login
 Backend stores tokens securely
 Frontend handles tokens via cookies for improved security
 
-🎯 Project Purpose
+## 🎯 Project Purpose
 
 This project was created as part of my personal portfolio to demonstrate:
 Real-world mobile authentication flow
@@ -98,7 +100,7 @@ Token handling & session management
 Practical, production-style folder structure
 Ability to develop a complete login experience end-to-end
 
-⭐ Additional Note (Important)
+## ⭐ Additional Note (Important)
 
 The backend codebase was originally implemented by another developer.
 My contribution focuses on:
@@ -110,7 +112,7 @@ Managing tokens and user sessions
 Understanding and working with an existing backend architecture
 This experience demonstrates that I can effectively collaborate in real-world environments, work with existing codebases, and build reliable client-side features on top of them — a skill that is highly valuable in professional teams.
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Connect the backend to a real SMS provider (e.g., Kavenegar, SMS.ir)
 Add rate limiting to OTP requests
