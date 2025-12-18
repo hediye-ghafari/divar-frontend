@@ -1,8 +1,21 @@
 **Divar – OTP Authentication System**
 
-This project is a simplified implementation of Divar-style mobile authentication.
-Users can submit their phone number, receive a one-time password (OTP), and log in after verification.
-The goal of this project is to demonstrate a clean authentication flow, structured frontend development, and real API integration suitable for production-level applications.
+A simplified Divar-style mobile authentication system built to demonstrate a real-world OTP login flow, production-ready frontend architecture, and integration with an existing backend API.
+
+This project showcases how a modern React application communicates with a Node.js backend to provide secure authentication and role-based access.
+
+⚠️ Important Notice (Read First)
+
+🚨 This project consists of two separate applications and both must be running simultaneously:
+
+backend-divar → API & authentication server
+frontend-divar → React client application
+
+❗ If only one of them is running, the application will not work correctly.
+To fully use the website and its features:
+Start the backend server
+Start the frontend application
+Make sure the frontend API base URL matches the backend port
 
 ## 🚀 Features
 
